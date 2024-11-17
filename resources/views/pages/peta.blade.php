@@ -8,7 +8,7 @@
         <section class="mt-5">
             <div class="container">
                 <div class="mt-5 section-title" data-aos="fade-up">
-                    <h2>Peta Kelurahan Seli</h2>
+                    <h2>Peta Kelurahan Tomalou</h2>
                 </div>
                 <div id="map" style="height: 580px;" data-aos="fade-up"></div>
             </div>
