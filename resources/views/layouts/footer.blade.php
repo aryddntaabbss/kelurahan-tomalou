@@ -9,8 +9,8 @@
             <p>
               Kecamatan Tidore Selatan, Provinsi Maluku Utara<br />
               Kode Pos 97813<br /><br />
-              <strong>Phone:</strong> 081342007749<br />
-              <strong>Email:</strong> kelurahan.tomalou@gmail.com<br />
+              {{-- <strong>Phone:</strong> 081342007749<br />
+              <strong>Email:</strong> kelurahan.tomalou@gmail.com<br /> --}}
             </p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>

@@ -32,7 +32,7 @@
                     </div>
                     <div class="col-sm-10 mb-3">
                         <label for="">Label</label>
-                        <input class="form-control @error('label') is-invalid @enderror" value="{{ old('label',$i->label) }}" type="text" id="formFile"
+                        <input required class="form-control @error('label') is-invalid @enderror" value="{{ old('label',$i->label) }}" type="text" id="formFile"
                             name="label">
                         @error('label')
                             <span class="invalid-feedback" role="alert">
@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-sm-10 mb-3">
                         <label for="">Deskripsi</label>
-                        <input class="form-control @error('deskripsi') is-invalid @enderror" value="{{ old('deskripsi',$i->deskripsi) }}" type="text" id="formFile"
+                        <input required class="form-control @error('deskripsi') is-invalid @enderror" value="{{ old('deskripsi',$i->deskripsi) }}" type="text" id="formFile"
                             name="deskripsi">
                         @error('deskripsi')
                             <span class="invalid-feedback" role="alert">

@@ -53,14 +53,14 @@ class BaseController extends Controller
     {
         return view('pages.profil.sejarah', [
             'data' => Sejarah::get(),
-            'title' => 'Sejarah Kelurahan Seli - Website Resmi Kelurahan Tomalou'
+            'title' => 'Sejarah Kelurahan Tomalou - Website Resmi Kelurahan Tomalou'
         ]);
     }
     public function gambaranumum()
     {
         return view('pages.profil.gambaranumum', [
             'data' => GambaranUmum::get(),
-            'title' => 'Gambaran Umum kelurahan Seli - Website Resmi Kelurahan Tomalou'
+            'title' => 'Gambaran Umum kelurahan Tomalou - Website Resmi Kelurahan Tomalou'
         ]);
     }
 
@@ -68,7 +68,7 @@ class BaseController extends Controller
     {
         return view('pages.profil.perangkat', [
             "perangkat" => PerangkatKelurahan::where('id', 1)->get(),
-            'title' => 'Perangkat Kelurahan Seli - Website Resmi Kelurahan Tomalou'
+            'title' => 'Perangkat Kelurahan Tomalou - Website Resmi Kelurahan Tomalou'
         ]);
     }
 
@@ -93,7 +93,7 @@ class BaseController extends Controller
         return view('pages.informasi.informasi', [
             "posts" => Posts::latest()->paginate(10),
             "posts_new" => Posts::latest()->paginate(10),
-            'title' => 'Informasi Seputar Kelurahan Seli - Website Resmi Kelurahan Tomalou'
+            'title' => 'Informasi Seputar Kelurahan Tomalou - Website Resmi Kelurahan Tomalou'
         ]);
     }
     public function detail_informasi(Posts $posts)

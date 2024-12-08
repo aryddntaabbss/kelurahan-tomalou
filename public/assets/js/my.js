@@ -71,7 +71,7 @@ var lc6 = L.icon( {
     iconUrl: './icon/building-flag-solid.svg',
     iconSize: [ 30, 40 ],
 } )
-L.marker( [ 0.6224109322592779, 127.40425400880235 ], {
+L.marker( [ 0.6236322058834084, 127.39843639628964 ], {
     icon: lc6
 } ).addTo( map ).bindPopup( "<b> Kantor Lurah Tomalou</b><br>" +
     "Tomalou, Tidore Selatan, Kota Tidore Kepulauan, Maluku Utara" ).addTo( map );

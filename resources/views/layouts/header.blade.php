@@ -1,9 +1,12 @@
 <!-- ======= Top Bar ======= -->
 <div id="topbar" class="d-flex align-items-center fixed-top">
   <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-    <div class="align-items-center d-none d-md-flex"><i class="fa-regular fa-envelope"></i> kelurahan.tomalou@gmail.com
+    <div class="align-items-center d-none d-md-flex">
+      {{-- <i class="fa-regular fa-envelope"></i> kelurahan.tomalou@gmail.com --}}
     </div>
-    <div class="d-flex align-items-center"><i class="bi bi-telephone-inbound"></i> 081342007749</div>
+    <div class="d-flex align-items-center">
+      {{-- <i class="bi bi-telephone-inbound"></i> 081342007749 --}}
+    </div>
   </div>
 </div>
 
@@ -22,9 +25,9 @@
               class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="{{ route('visimisi') }}">Visi & Misi</a></li>
-            <li><a href="{{ route('sejarah') }}">Sejarah Kelurahan</a></li>
+            {{-- <li><a href="{{ route('sejarah') }}">Sejarah Kelurahan</a></li> --}}
             <li><a href="{{ route('gambaranumum') }}">Gambaran Umum</a></li>
-            <li><a href="{{ route('perangkat') }}">Kepala Kelurahan & Perangkat Kelurahan</a></li>
+            <li><a href="{{ route('perangkat') }}">Kepala Kelurahan & Struktur Organisasi Kelurahan</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -50,15 +53,15 @@
             href="{{ route('golongan') }}">GOLONGAN DARAH</a></li>
         <li><a class="nav-link scrollto {{ Request::is('informasi*') ? 'active' : '' }}" href="/informasi">INFORMASI</a>
         </li>
-        {{-- <li><a class="nav-link scrollto {{ Request::is('peta') ? 'active' : '' }}" href="/peta">PETA</a></li> --}}
-        <li class="dropdown">
+        <li><a class="nav-link scrollto {{ Request::is('peta-*') ? 'active' : '' }}" href="{{ route('peta.kelurahan') }}">PETA KELURAHAN</a></li>
+        {{-- <li class="dropdown">
           <a class="nav-link {{ Request::is('peta-*') ? 'active' : '' }}" href="#"><span>PETA KELURAHAN</span> <i
               class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="{{ route('peta.kelurahan') }}">Peta Kalurahan</a></li>
             <li><a href="{{ route('peta.jaringan') }}">Penyebaran Jaringan Wifi</a></li>
           </ul>
-        </li>
+        </li> --}}
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav>

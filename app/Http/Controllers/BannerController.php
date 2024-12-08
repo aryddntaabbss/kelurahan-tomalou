@@ -30,10 +30,11 @@ class BannerController extends Controller
         $rules = $request->validate([
             'img' => 'image|mimes:jpeg,png,jpg|max:2064',
             'label' => 'required|max:100',
-            'deskripsi' => 'max:100',
+            'deskripsi' => 'required|max:100',
 
         ]);
 
+        // dd($request->file("img"));
         if ($request->file('img')) {
             if ($request->img) {
                 Storage::delete($request->oldimage);

@@ -38,11 +38,11 @@ Route::get('/peta-kelurahan', function () {
         'title'=> 'Pemetaan Kelurahan Seli - Website Resmi Kelurahan Seli'
     ]);
 })->name('peta.kelurahan');
-Route::get('/peta-jaringan', function () {
-    return view ('pages.peta_jaringan',[
-        'title'=> 'Pemetaan Jaringan Kelurahan Seli - Website Resmi Kelurahan Seli'
-    ]);
-})->name('peta.jaringan');
+// Route::get('/peta-jaringan', function () {
+//     return view ('pages.peta_jaringan',[
+//         'title'=> 'Pemetaan Jaringan Kelurahan Seli - Website Resmi Kelurahan Seli'
+//     ]);
+// })->name('peta.jaringan');
 
 Route::get('/golongan-darah', [DatapendudukController::class, 'golongan'])->name('golongan');
 Route::get('/informasi', [BaseController::class, 'informasi'])->name('informasi');
@@ -52,9 +52,9 @@ Route::prefix('profil')->group(function () {
   
     Route::get('/visi-misi',[BaseController::class,'visimisi'])->name('visimisi');
 
-    Route::get('/sejarah',[BaseController::class,'sejarah'])->name('sejarah');
+    // Route::get('/sejarah',[BaseController::class,'sejarah'])->name('sejarah');
 
-    Route::get('/perangkat-kelurahan',[BaseController::class,'perangkat'])->name('perangkat');
+    Route::get('/struktur-kelurahan',[BaseController::class,'perangkat'])->name('perangkat');
     Route::get('/gambaran-umum',[BaseController::class,'gambaranumum'])->name('gambaranumum');
 });
 Route::prefix('kelembagaan')->group(function () {

@@ -8,7 +8,7 @@
   <section class="mt-5">
     <div class="container">
       <div class="section-title" >
-        <h2 class="mt-5" data-aos="fade-up">PERANGKAT KELURAHAN</h2>
+        <h2 class="mt-5" data-aos="fade-up">STRUKTUR ORGANISASI KELURAHAN</h2>
       </div>
 
   <section id="doctors" class="doctors">

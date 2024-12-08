@@ -21,7 +21,7 @@
                     <div class="col-lg-12 " data-aos="fade-right">
                         <div class="text-center my-5">
                             <h4>SUSUNAN LEMBAGA PEMBERDAYAAN MASYARAKAT (LPM)</h4>
-                            <h4>KELURAHAN SELI</h4>
+                            <h4>KELURAHAN TOMALOU</h4>
                         </div>
                        
                         <img src="{{ asset('storage/' . $i->img) }}" alt="" class="img-fluid d-block">

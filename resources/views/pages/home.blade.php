@@ -99,6 +99,8 @@
                 <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-right">
                     <div class="count-box">
                         <i class="bi bi-person-fill"></i>
+                        {{-- <span data-purecounter-start="0" data-purecounter-end="{{ 312 }}"
+                            data-purecounter-duration="1" class="purecounter"></span> --}}
                         <span data-purecounter-start="0" data-purecounter-end="{{ $datapendudukL }}"
                             data-purecounter-duration="1" class="purecounter"></span>
                         <p>Jumlah Penduduk</p>
@@ -109,6 +111,8 @@
                 <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
                     <div class="count-box">
                         <i class="bi bi-person-fill"></i>
+                        {{-- <span data-purecounter-start="0" data-purecounter-end="{{ 351 }}"
+                            data-purecounter-duration="1" class="purecounter"></span> --}}
                         <span data-purecounter-start="0" data-purecounter-end="{{ $datapendudukP }}"
                             data-purecounter-duration="1" class="purecounter"></span>
                         <p>Jumlah Penduduk</p>
@@ -119,6 +123,8 @@
                 <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-left">
                     <div class="count-box">
                         <i class="bi bi-people-fill"></i>
+                        {{-- <span data-purecounter-start="0" data-purecounter-end="{{ 663 }}"
+                            data-purecounter-duration="1" class="purecounter"></span> --}}
                         <span data-purecounter-start="0" data-purecounter-end="{{ $datapenduduk }}"
                             data-purecounter-duration="1" class="purecounter"></span>
                         <p>Jumlah Penduduk</p>
